@@ -12,7 +12,7 @@ const Notes = () => {
   }, []);
 
   return (
-    <div className="w-full p-5 mt-20">
+    <div className="w-full p-5 pt-24">
       <div className="grid md:grid-cols-4 gap-4">
         {notes?.map((note, i) => (
           <NotesCard key={i} note={note} i={i} />
