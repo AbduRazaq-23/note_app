@@ -17,7 +17,7 @@ function App() {
             }
           />
           <Route path="/postnotes" element={<PostNotes />} />
-          <Route path="/note" element={<Note />} />
+          <Route path="/note/:id" element={<Note />} />
         </Routes>
       </BrowserRouter>
     </div>
